@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>My Text Editor</title>
+</head>
+<body>
+    <main>
+            <div class="bg-blue-300 m-3 me-20 ms-20 text-center">
+                <h3 class="mb-4 mt-4 text-4xl font-mono">My text Editor</h3>
+                <div class="border-black border-4 bg-violet-400 py-5 px-4 rounded-lg me-40 ms-40"> 
+                    <section>
+                        <div class="flex justify-between">
+                            <div class="flex-item-left">
+                                <button id="bold-id" class="px-4 py-2 bg-white rounded-lg"><i class="fa-solid fa-bold"></i></button>
+                                <button id="ita-id" class="px-4 py-2 bg-white rounded-lg"><i class="fa-solid fa-italic"></i></i></button>
+                                <button id="unda-id" class="px-4 py-2 bg-white rounded-lg"><i class="fa-solid fa-underline"></i></i></button>
+                            </div>
+                            <div class="flex-item-center">
+                                <button id="a-l" class="px-4 py-2 bg-white rounded-lg"><i class="fa-solid fa-align-left"></i></i></button>
+                                <button id="a-m" class="px-4 py-2 bg-white rounded-lg"><i class="fa-solid fa-align-center"></i></button>
+                                <button id="a-r" class="px-4 py-2 bg-white rounded-lg"><i class="fa-solid fa-align-right"></i></i></button>
+                                <button id="a-j" class="px-4 py-2 bg-white rounded-lg"><i class="fa-solid fa-align-justify"></i></button>
+                            </div>
+                            <div class="flex-item-right">
+                                <input id="n-id" type="number" class="w-20 rounded-lg px-2 py-1">
+                                <input id="c-id" type="color" class="ml-2 rounded"></i></i></button>
+                            </div>
+                        </div>
+
+                        <hr class="px-1 border-black border-2 mt-4">
+                    </section>
+                    <div class="mt-2">
+                        <textarea id="txt-area" name="" class="text-clip overflow-hidden border-black border-2" style="height: 500px; width: 740px;"></textarea>
+                    </div>
+                </div>
+                
+            </div>
+        
+    </main>
+    <script src="scripts.js"></script>
+    <script src="https://kit.fontawesome.com/4ed2279cff.js" crossorigin="anonymous"></script>
+</body>
+</html>
